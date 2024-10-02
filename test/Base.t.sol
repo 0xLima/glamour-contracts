@@ -11,7 +11,7 @@ import {GM} from "../../src/GM.sol";
 import {MockV3Aggregator} from "@chainlink/contracts/src/v0.8/tests/MockV3Aggregator.sol";
 
 
-contract Demo is Test {
+contract Base is Test {
     CCIPLocalSimulator public ccipLocalSimulator;
     uint64 chainSelector;
     IRouterClient sourceRouter;
